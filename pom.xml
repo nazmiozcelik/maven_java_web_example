@@ -7,6 +7,19 @@
 	<name>api</name>
 	<packaging>war</packaging>
 
+	
+	<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>localhost.localdomain-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
+	
+	
+	
+	
+	
 	<properties>
 		<java-version>1.8</java-version>
 		<jackson.version>1.9.13</jackson.version>
